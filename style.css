@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+  margin: 0;
+ 
+}
+.tilte{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tilte span{
+  margin-top: 7px;
+}
+header{
+  background-color: rgb(104, 7, 194);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+main{
+  padding: 30px 50px;
+  
+}
+.card{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+.lineInput{
+  display: grid;
+  margin-bottom: 10px;
+
+}
+input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+}
+button{
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  background-color: rgb(146, 173, 224);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bolder;
+  transition: all ease 0.3s;
+  
+}
+button:hover{
+  background-color: rgb(104, 7, 194);
+  cursor: pointer;
+}
+.content{
+  margin-top: 15px;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+table th {
+  background-color: rgba(199, 199, 243, 0.397);
+  text-align: left;
+  padding: 1px 5px;
+}
+table td img{
+  width: 20px;
+}
+.center{
+  text-align: center;
+
+}
